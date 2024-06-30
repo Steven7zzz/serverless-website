@@ -1,0 +1,123 @@
+
+h1 {
+color: rgb(141, 138, 158);
+text-align: center;
+}
+
+
+.color-square {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+
+.project_one_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_one 10s ease-in-out infinite;
+}
+
+@keyframes bounceColorChange_one {
+    0%, 100% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+}
+
+.project_two_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_two 10s ease-in-out infinite;
+}
+
+@keyframes bounceColorChange_two {
+    0%, 100% {
+        color: green;
+    }
+    50% {
+        color: yellow;
+    }
+}
+
+.project_three_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_three 10s ease-in-out infinite;
+}
+
+@keyframes bounceColorChange_three {
+    0%, 100% {
+        color: yellow;
+    }
+    50% {
+        color: blue;
+    }
+}
+
+.project_four_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_four 10s ease-in-out infinite;
+}
+
+@keyframes bounceColorChange_four {
+    0%, 100% {
+        color: blue;
+    }
+    50% {
+        color: red;
+    }
+}
+
+
+.icon-text {
+    margin-bottom: 80px;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+}
+
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c8a66c;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+.centered_buttom{
+    text-align: center;
+}
+
+#toggle{
+    background-color: #c8a66c;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+	font: 150% georgia, sans-serif;
+	background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);  
+    background-size: cover;
+}

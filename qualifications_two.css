@@ -1,0 +1,67 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+    
+
+iframe{
+    width: 1000px;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+
+.skills_and_interest{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+ol{
+    font-size: 20px;
+}
+
+li { 
+    color: white;
+    padding-left: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+strong { color: white; }
+    
+.centered_buttom{
+    text-align: center;
+}
+    
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #746f68;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+#toggle{
+    background-color: #746f68;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+    font: 150% georgia, sans-serif;
+    background-image: url(black-1072366_1280.jpg);  
+    background-size: cover;
+}
+    

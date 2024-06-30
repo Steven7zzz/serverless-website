@@ -1,0 +1,118 @@
+
+h1 {
+color: white;
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 20px;
+text-decoration: none;
+}
+
+.color-square {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.red { background-color: rgb(180, 131, 131); }
+.green { background-color: rgb(134, 185, 134); }
+.blue { background-color: rgb(131, 131, 182); }
+.yellow { background-color: rgb(196, 196, 135); }
+
+.project_one_animation {
+    color: #3498db;
+    animation: bounceColorChange_one 5s ease-in-out infinite;
+    animation: flip_one 5s ease-in-out forwards;
+}
+
+.project_two_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_two 5s ease-in-out infinite;
+    animation: flip_one 5s ease-in-out forwards;
+}
+
+
+.project_three_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_three 5s ease-in-out infinite;
+    animation: flip_one 5s ease-in-out forwards;
+}
+
+
+.project_four_animation {
+    text-decoration: none;
+    color: #3498db;
+    animation: bounceColorChange_four 5s ease-in-out infinite;
+    animation: flip_one 5s ease-in-out forwards;
+}
+
+
+@keyframes flip_one {
+    0%, 100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+
+.icon-text {
+    margin-bottom: 80px;
+    color: white;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #746f68;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+.centered_buttom{
+    text-align: center;
+}
+
+#toggle{
+    background-color: #746f68;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+	font: 150% georgia, sans-serif;
+	background-image: url(black-1072366_1280.jpg);  
+    background-size: cover;
+}

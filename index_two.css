@@ -1,0 +1,116 @@
+#header {
+text-align: center;
+font-family: cursive;
+color: white;
+}
+
+.flip_welcome {
+    display: inline-block;
+    animation: flip 2s ease-in-out forwards;
+}
+
+@keyframes flip {
+    0%, 100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+
+#contact{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#toggle{
+    background-color: #746f68;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+li{
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#introduction{
+    font-family: 'Courier New', monospace;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.menu_link a{
+    text-decoration: none;
+    font-family: 'Chalkduster', fantasy;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.menu_link a:hover {
+    color: rgb(141, 138, 158);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(2) a:hover {
+    color: rgb(197, 95, 95);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(3) a:hover{
+    color: rgb(89, 128, 165);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(4) a:hover {
+    color: rgb(115, 186, 121);
+    transform: scale(1.1);
+}
+
+.centered_buttom{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #645e54;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Marker Felt', fantasy;
+    border-radius: 50px;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+	background-image: url(black-1072366_1280.jpg);  
+    background-size: cover;
+}
+

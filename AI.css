@@ -1,0 +1,86 @@
+body {
+    font-family: "Arial", sans-serif; /* Change the font family */
+    margin: 0;
+    padding: 0;
+    background-image: url('paper-1074131_1280.jpg'); /* Replace 'background.jpg' with the actual image file name */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000; /* Change the text color to black */
+}
+/* Add animations to header and main sections */
+header {
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+    padding: 0;
+    animation: fadeInDown 1s ease-in-out; /* Fade in animation */
+}
+
+main {
+    background: none;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Verdana", sans-serif;
+    animation: fadeInUp 1s ease-in-out; /* Fade in animation */
+}
+
+/* Keyframes for fadeInDown and fadeInUp animations */
+@keyframes fadeInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Add hover animation to links */
+a {
+    text-decoration: none;
+    color: #163d56;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff5733; /* Change link color on hover */
+}
+
+/* Home button styles */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Home button hover animation */
+.home-button:hover {
+    background-color: #ff5733; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}

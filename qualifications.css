@@ -1,0 +1,85 @@
+h1 {
+    color: rgb(197, 95, 95);
+    text-align: center;
+    }
+    
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe{
+    width: 800px;
+    height: 600px;
+}
+
+.skills_and_interest{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 50px;
+
+}
+
+ol{font-size: 20px;}
+li { 
+    color: #4F4F4F; 
+    padding-left: 16px;
+    margin-top: 30px;
+    position: relative;
+    line-height: 20px;
+}
+
+  
+  strong { color: #292929; }
+  
+  ol.alternating-colors { 
+    li:nth-child(odd):before { border-color: #0BAD02; }
+    li:nth-child(even):before { border-color: #2378D5; }
+  }
+
+
+.centered_pdf{
+    width: auto;
+    text-align: right;
+    margin-right: 10px;
+    border: none;
+    margin-top: 50px;
+}
+    
+    
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c8a66c;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+.centered_buttom{
+    text-align: center;
+}
+
+#toggle{
+    background-color: #c8a66c;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+    font: 150% georgia, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);  
+    background-size: cover;
+}
+    

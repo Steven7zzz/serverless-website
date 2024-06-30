@@ -1,0 +1,121 @@
+#header {
+text-align: center;
+font-family: cursive;
+}
+
+.flip_welcome {
+    display: inline-block;
+    color: black;
+    animation: flip 2s ease-in-out forwards;
+}
+
+@keyframes flip {
+    0%, 100% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+}
+
+
+#contact{
+    text-align: center;
+    font-family: "American Typewriter", serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left: 5%;
+    width: 50%; 
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.right {
+    width: 35%; 
+}
+
+ul{
+    margin-top: 15%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 85px;
+}
+
+#introduction{
+    font-family: "Georgia", serif;
+    font-size: 25px;
+}
+
+.menu_link a{
+    text-decoration: none;
+    font-family: 'Chalkduster', fantasy;
+    color: black;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.menu_link a:hover {
+    color: rgb(141, 138, 158);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(2) a:hover {
+    color: rgb(197, 95, 95);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(3) a:hover{
+    color: rgb(89, 128, 165);
+    transform: scale(1.1);
+}
+
+.menu_link:nth-child(4) a:hover {
+    color: rgb(115, 186, 121);
+    transform: scale(1.1);
+}
+
+.centered_buttom{
+    text-align: center;
+}
+
+.toggle_button{
+    text-align: center;
+}
+
+#toggle{
+    background-color: #c8a66c;
+    border: none;
+    border-radius: 5px;
+}
+
+#toggle:hover {
+    background-color: #a0bfe0;
+}
+
+#home_buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c18928;
+    color: black;
+    text-decoration: none;
+    font-family: 'Marker Felt', fantasy;
+    border-radius: 50px;
+}
+
+#home_buttom:hover {
+    background-color: #a0bfe0;
+}
+
+body { 
+	font: 150% georgia, sans-serif;
+	background-image: url(paper-1074131_1280.jpg);  
+    background-size: cover;
+}
